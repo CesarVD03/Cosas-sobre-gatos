@@ -1,12 +1,12 @@
 console.log("JS conectado");
 
 //Mensaje de Bienvenida
-alert("¡Bienvenido a Miau...Dom!\nEsta pagina Lanza datos cueriosos sobre gatos\nconsumiendo una API publica de gatos (Cat Fact)");
+alert("¡Bienvenido a Miau...Dom!\nEsta pagina Lanza datos curiosos sobre gatos\nconsumiendo una API publica de gatos (Cat Fact)\ny traduciendo con otra API (translated)");
 
 //Extraer el h1: 
 let mostrar = document.querySelector("h2");
 let boton = document.querySelector("#btn");
-mostrar.textContent = ""; //solo para declarar
+mostrar.textContent = "Da click en el boton\npara comenzar"; //solo para declarar
 
 const URL = "https://catfact.ninja/fact"; // Asegúrate de tener la URL definida
 
