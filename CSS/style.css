@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(219, 169, 217);
+}
+
+#contenedor_ventana_dato {
+    position: relative;
+    background-color: rgba(184, 233, 241, 0.911);
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    top: 20vh;
+    box-sizing: border-box;
+    border: 2px solid rgb(120, 146, 150);
+    box-shadow: 3px 3px gray;
+}
+
+#contenedor_btn {
+    position: relative;
+    padding: 0;
+    width: fit-content;
+    margin: 0 auto;
+    top: 25vh;
+    box-sizing: border-box;
+    border: 0;
+
+
+}
+
+#btn {
+    height: 10vh;
+    width: 40vh;
+    border-radius: 70px;
+    font-size: 2vh;
+    border: 1px solid rgb(91, 250, 229);
+
+    cursor: pointer;
+    /* Muestra la manita al pasar sobre el botón */
+    transition: transform 0.1s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    /* Transición suave */
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 5, 95);
+}
+
+/*MOVIL*/
+@media(max-width: 767px) and (min-width: 320px) {
+    body {
+        background-color: rgb(219, 169, 217);
+        padding: 20px;
+    }
+
+    /*cambiar tamaño del boton y de la pantalla que muestra el texto*/
+    #contenedor_ventana_dato {
+        box-sizing: border-box;
+        padding: 10px;
+        border: 2px solid rgb(120, 146, 150);
+    }
+
+    #btn {
+        height: 10vh;
+        width: 40wh;
+        font-size: 2vh;
+    }
+
+
+}
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: rgb(219, 169, 217);
+        padding: 40px;
+    }
+
+    #contenedor_ventana_dato {
+        box-sizing: border-box;
+        padding: 20px;
+        border: 2px solid rgb(120, 146, 150);
+    }
+}
